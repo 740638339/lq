@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="an_lanse">#238FFB</color>
+    <color name="split_line">#d8dfe5</color>
+    <color name="bg_huise">#F9F9FD</color>
+    <color name="pro_list_title">#A3A1A1</color>
+    <color name="red">#F80505</color>
+    <color name="transparent">#00000000</color>
+    <color name="date_bg_gray">#D8D8D8</color>
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+
+    <drawable name="trans">@color/color_hei_8</drawable>
+</resources>

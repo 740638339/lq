@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/bg_huise">
+
+    <TextView
+        android:id="@+id/proName"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="蛋蛋"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/proPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="2222"
+        android:paddingRight="30dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/proNum"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="31dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:editable="false"
+        android:gravity="center"
+        android:background="@drawable/edit_text_bg"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btnLL"
+        android:layout_marginEnd="31dp" />
+    <LinearLayout
+        android:id="@+id/btnLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/jianNumBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="6dp"
+            android:background="@mipmap/jian"/>
+        <ImageView
+            android:id="@+id/jiaNumBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/jia"
+            android:layout_below="@+id/proNum"
+            android:layout_alignRight="@+id/addNumBtn"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/split_line"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

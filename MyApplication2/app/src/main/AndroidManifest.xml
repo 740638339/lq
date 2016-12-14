@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lq.yl.product.count">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.ProductApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".app.StartAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.AddTableProAct" />
+        <activity
+            android:name=".app.BillDetailAct"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".app.ListTableAct"
+            android:launchMode="singleTask" />
+        <activity android:name=".app.MainAct" />
+        <activity
+            android:name=".app.CrtProAct"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name=".app.CrtStoreAct"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".app.manager.ProMngAct"
+            android:launchMode="singleTask" />
+        <activity android:name=".app.ChartAct" />
+        <activity android:name=".app.LogonAct" />
+        <activity android:name=".app.Test" />
+        <activity android:name=".app.ListDilaryOrderAct" />
+        <activity android:name=".app.OrderDetailAct" />
+        <activity
+            android:name=".app.other.gest.CrtGestPsdAct"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".app.other.gest.GuideGestPsdAct"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".app.other.gest.UnlockGestPsdAct"
+            android:launchMode="singleTask" />
+        <activity android:name=".app.TempAct" />
+        <activity android:name=".app.MngStoreInfoAct"></activity>
+    </application>
+
+</manifest>

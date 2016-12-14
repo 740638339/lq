@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/proImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:background="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/proName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="XXX"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20sp"
+        />
+    <TextView
+        android:id="@+id/proOrgPrice"
+        android:layout_weight="0.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:text="XXX"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/proSalePrice"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXX"
+        android:textSize="14sp"
+        android:layout_marginRight="20sp"
+        />
+</LinearLayout>
